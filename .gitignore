@@ -1,2 +1,5 @@
 build/**/*
 gradle/**/* 
+build/intermediates/dex-cache/**/*
+.gradle/**/*
+.idea/**/*
