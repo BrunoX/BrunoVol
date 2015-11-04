@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.zel.brunovol.teststuff"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+	<uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.EXPAND_STATUS_BAR" />
+	<application
+		android:allowBackup="true"
+		android:icon="@drawable/bruno_silhoutee_icon"
+		android:label="@string/app_name"
+		android:supportsRtl="true"
+		android:theme="@style/AppTheme"
+		android:name="com.zel.brunovol.BrunoApp">
+		<activity
+			android:name="com.zel.brunovol.MainActivity"
+			android:label="@string/app_name"
+			android:theme="@style/AppTheme.NoActionBar"
+			android:launchMode="singleTask"
+			android:screenOrientation="portrait">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN"/>
+
+				<category android:name="android.intent.category.LAUNCHER"/>
+			</intent-filter>
+		</activity>
+
+		<service android:name="com.zel.brunovol.VolumeService" />
+	</application>
+
+</manifest>

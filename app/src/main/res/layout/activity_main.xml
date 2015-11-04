@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context=".MainActivity">
+
+	<TextView
+		android:id="@+id/title"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentTop="true"
+		android:layout_marginBottom="@dimen/activity_horizontal_margin"
+		android:layout_marginTop="@dimen/activity_horizontal_margin"
+		android:gravity="center_horizontal"
+		android:text="BrunoVol Server"
+		android:textAppearance="@android:style/TextAppearance.Large"
+		android:textColor="@color/colorPrimary"
+		/>
+
+	<EditText
+		android:id="@+id/server_ip"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/title"
+		android:layout_marginBottom="@dimen/activity_horizontal_margin"
+		android:gravity="center_horizontal"
+		android:hint="e.g 192.168.1.56"
+		android:textColor="@color/colorPrimary"
+		/>
+
+	<Button
+		android:id="@+id/save"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/server_ip"
+		android:layout_centerHorizontal="true"
+		android:background="?attr/selectableItemBackground"
+		android:text="Save"
+		android:textColor="@color/colorPrimary"
+		/>
+
+	<LinearLayout
+		android:id="@+id/active_container"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:layout_below="@+id/save"
+		android:layout_margin="@dimen/activity_horizontal_margin"
+		>
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Enabled"
+			android:textColor="@color/colorPrimary"
+			/>
+		<android.support.v7.widget.SwitchCompat
+			android:id="@+id/active"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_below="@+id/save"
+			android:textColor="@color/colorPrimary"
+			android:textOff="OFF"
+			android:textOn="ON"
+			android:checked="false"
+			/>
+	</LinearLayout>
+	<android.support.design.widget.CoordinatorLayout
+		android:id="@+id/snackbarPosition"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:layout_centerHorizontal="true">
+	</android.support.design.widget.CoordinatorLayout>
+</RelativeLayout>
