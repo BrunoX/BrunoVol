@@ -2,11 +2,11 @@
 <items version="2" >
 
     <item
-        jar="/home/brx/dev/git/BrunoVol/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/classes.jar"
+        jar="/home/brx/dev/git/BrunoVol/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
-        <dex dex="/home/brx/dev/git/BrunoVol/app/build/intermediates/pre-dexed/debug/classes-5bf9839238755a3f88c9b2413ef59cdc4d41a91b.jar" />
+        sha1="57ae0d750ff83f0c738d21720224ac7ea866a094">
+        <dex dex="/home/brx/dev/git/BrunoVol/app/build/intermediates/pre-dexed/debug/classes-39d5325bc5c74351724f4ade08a58abd44328c49.jar" />
     </item>
     <item
         jar="/home/brx/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.0/support-annotations-23.1.0.jar"
@@ -16,13 +16,6 @@
         <dex dex="/home/brx/dev/git/BrunoVol/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.0-c490df5f33c0535748dd5e29eb005386c841a808.jar" />
     </item>
     <item
-        jar="/home/brx/dev/git/BrunoVol/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="3f151e49c316a5ab2c065969a3b3b55ef9b393fc">
-        <dex dex="/home/brx/dev/git/BrunoVol/app/build/intermediates/pre-dexed/debug/classes-f336b5ebd6f13286eb4b4ad73a5a8550161b08ee.jar" />
-    </item>
-    <item
         jar="/home/brx/dev/git/BrunoVol/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
@@ -30,11 +23,11 @@
         <dex dex="/home/brx/dev/git/BrunoVol/app/build/intermediates/pre-dexed/debug/classes-d7ff45b94f7836f4615dc363cfa01df74608e529.jar" />
     </item>
     <item
-        jar="/home/brx/dev/git/BrunoVol/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/jars/classes.jar"
+        jar="/home/brx/dev/git/BrunoVol/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="57ae0d750ff83f0c738d21720224ac7ea866a094">
-        <dex dex="/home/brx/dev/git/BrunoVol/app/build/intermediates/pre-dexed/debug/classes-39d5325bc5c74351724f4ade08a58abd44328c49.jar" />
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="/home/brx/dev/git/BrunoVol/app/build/intermediates/pre-dexed/debug/classes-5bf9839238755a3f88c9b2413ef59cdc4d41a91b.jar" />
     </item>
     <item
         jar="/home/brx/dev/git/BrunoVol/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/libs/internal_impl-23.1.0.jar"
@@ -42,6 +35,13 @@
         revision="23.0.1"
         sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
         <dex dex="/home/brx/dev/git/BrunoVol/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.0-86f6c6312096016969b49eaf2cbe6cb0479f7c34.jar" />
+    </item>
+    <item
+        jar="/home/brx/dev/git/BrunoVol/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3f151e49c316a5ab2c065969a3b3b55ef9b393fc">
+        <dex dex="/home/brx/dev/git/BrunoVol/app/build/intermediates/pre-dexed/debug/classes-f336b5ebd6f13286eb4b4ad73a5a8550161b08ee.jar" />
     </item>
 
 </items>
